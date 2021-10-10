@@ -1,0 +1,23 @@
+{
+  "name": "video-donwload",
+  "version": "1.0.0",
+  "description": "Site permettant de télécharger les vidéos des réseaux sociaux",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JP",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fb-video-downloader": "^1.0.3",
+    "puppeteer": "^10.2.0",
+    "ytdl-core": "^4.9.1"
+  }
+}
